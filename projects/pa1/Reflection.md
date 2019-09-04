@@ -4,4 +4,4 @@ I have also tried doing it on just one repository. That didn't work. I can't thi
 
 I did on a random note fix a merge conflict I was have between your master repository and my fork. 
 
-Used git bash to create a branch made them different. pushed both no problems. Then tried merging the two which I believe had no problems. I am having trouble understanding what I am reading.  
+Used git bash to create a branch made them different. pushed both, no problems. Then tried merging the two which I believe had no problems. I am having trouble understanding what I am reading. Seems to automatically resolve the 
