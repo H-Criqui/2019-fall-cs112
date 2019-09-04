@@ -1,6 +1,0 @@
-I have tried multiple times to create a merge conflict. I have created two different files with the same 
-set of files and documents then changed conflict_a to conflict on one, and conflict_b to conflict on the 
-other. Then commited and pushed both to the github. Did not create a conflict. Don't know what else to try. 
-I have also tried doing on just one repository. That didn't work. I can't think nor find on the internet 
-what else I am meant to do to create this merge conflict. I did on a random note fix a merge conflict 
-I was have between your master repository and my fork. 
