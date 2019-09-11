@@ -37,4 +37,4 @@ int main()
 
 	cout << data_output;
 	return 0;
-}											
+}
