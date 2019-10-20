@@ -15,7 +15,7 @@ Thus, you will need to set every 3rd value to 0 starting with the 2nd data item 
 
 ## 3. Remove all blue
 To remove all blue from an image, set all blue pixels equal to 0.  Recall that PPM data is in the repeating format RGB RGB RGB ...
-Thus, you will need to set every 3rd value to 0 starting with the 2nd data item (element 1 in array terms).  Here is our bunny image with the blue removed:
+Thus, you will need to set every 3rd value to 0 starting with the 3rd data item (element 2 in array terms).  Here is our bunny image with the blue removed:
 
 ![no green](bunny_remove_blue.png)  
 
@@ -53,6 +53,7 @@ Enter destination file: output.ppm
 4. Negate Red
 5. Negate Blue
 6. Negate Green
+7. Grayscale
 
 Selection: 5
 
@@ -68,7 +69,7 @@ To submit your assignment, check your code into your new CS112-ImageManipulation
 
 # Grading
 This assignment is worth 100 points:
-* 60 points for completing the task (demonstrate good progress, regular github checkins, good github comments, maintaining your project board)
+* 60 points for reglarly working on the project (demonstrate good progress, regular github checkins, good github comments, maintaining your project board)
 * 20 points for correct program output (i.e. all of your image effects work properly)
 * 10 points for demonstrating progress during checkins 
 * 10 points for your reflection.  For inspiration, see [my prompts](../../docs/sample_reflection.md) 
