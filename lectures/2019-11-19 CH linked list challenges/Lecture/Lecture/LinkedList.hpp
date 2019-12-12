@@ -85,6 +85,30 @@ public:
 		}
 	}
 
+	LinkedList<DATA_TYPE> mergeSorted(
+		const LinkedList<DATA_TYPE>& first,
+		const LinkedList<DATA_TYPE>& second
+	)
+	{
+		vector<DATA_TYPE> held;
+		ListNode<DATA_TYPE>* current = first._front();
+		while (current != nullptr)
+		{
+			held.push_back(current->getValue());
+			current = current->getNext();
+		}
+		current = second._front();
+		while (current != nullptr)
+		{
+			held.push_back(current->getValue());
+			current = current->getNext();
+		}
+		vector<DATA_TYPE> temp;
+		DATA_TYPE lowest = temp[0];
+		DATA_TYPE next;
+		
+	}
+
 
 	//this is the copy operator
 	//in this version, we don't start off blank
